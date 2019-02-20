@@ -123,6 +123,7 @@ body{
 nav{
     background-color:rgb(200,200,200);
     height: 50px;
+    width: 100%;
 }
 nav button:focus{
     outline: 0;
@@ -177,6 +178,7 @@ nav button:hover{
     text-align: center;
 }
 #search{
+    width: 95%;
     margin: 5px 0 0 5px;
     padding: 10px 0 0 5px;
     font-size: 1.2em;

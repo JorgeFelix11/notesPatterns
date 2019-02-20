@@ -7,7 +7,7 @@ app.set('view engine', 'hbs');
 app.use(express.static(__dirname + "/public"))
 app.get('/', (req, res) => {
     res.render('notes.hbs', {
-        title: 'Notes JavaScript By Jorge Felix'
+        title: 'Notes JavaScript'
     });
 })
 
