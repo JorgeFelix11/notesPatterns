@@ -6,7 +6,9 @@ const port = process.env.PORT || 3000;
 app.set('view engine', 'hbs');
 app.use(express.static(__dirname + "/public"))
 app.get('/', (req, res) => {
-    res.render('notes.hbs');
+    res.render('notes.hbs', {
+        title: 'Notes JavaScript 2'
+    });
 })
 
 app.listen(port, () => console.log('App listening to port 3000'))
